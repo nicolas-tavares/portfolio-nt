@@ -1,6 +1,9 @@
 
 /* ESTILO GERAL */
 
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     margin: 0;
@@ -49,6 +52,18 @@ button:hover, form .btn-enviar input:hover{
     transform: scale(1.04);
 }
 
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #000000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #00a0e9;
+    border-radius: 20px;
+}
 
 /* ================== ESTILO DO CABEÇALHO ================== */
 
