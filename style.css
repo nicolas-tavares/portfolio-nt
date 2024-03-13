@@ -233,6 +233,7 @@ section.sobre .flex{
     cursor: pointer;
     margin: 0 8px;
     transition: .2s;
+    color: #fff;
 }
 
 
