@@ -304,6 +304,24 @@ section.sobre .flex{
     color: #fff;
 }
 
+#clicavel-site {
+    color: #007BFF; /* Escolha a cor desejada para o link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+#clicavel-site:hover {
+    color: #0056b3; /* Cor do link ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado no hover (opcional) */
+}
+
+#clicavel-site:visited {
+    color: #007BFF; /* Garante que o link não fique roxo após ser visitado */
+}
+
+#clicavel-site:focus {
+    outline: none; /* Remove a borda padrão no foco */
+}
+
 
 
 
